@@ -107,9 +107,10 @@ p {
 .profilepic {
   width: 20rem;
   border-radius: 10rem;
+  padding-top: 40px;
 }
 
-.profilepic-container {
+/* .profilepic-container {
   display: flex;
   align-items: center;
-}
+} */
