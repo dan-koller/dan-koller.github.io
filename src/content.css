@@ -2,6 +2,32 @@
   background-color: white;
   height: 50vh;
 }
+/* Profile stuff */
+
+.info-list {
+  display: block;
+}
+
+.profile-card .info-list li span {
+  display: block;
+  font-family: 'poppins-regular', sans-serif;
+  color: #888888;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-card {
+  width: 50%;
+}
+
+.skill-card {
+  width: 50%;
+}
 
 /* Skill-bars: */
 
