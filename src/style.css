@@ -46,6 +46,10 @@ h2 {
   font-size: 3.5rem;
 }
 
+h3 {
+  font-size: 2.5rem;
+}
+
 p {
   margin: 0;
   font-size: 2rem;
@@ -114,3 +118,39 @@ p {
   display: flex;
   align-items: center;
 } */
+
+.info-list {
+  display: block;
+}
+
+.profile-card .info-list li span {
+  display: block;
+  font-family: 'poppins-regular', sans-serif;
+  color: #888888;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-card {
+  width: 50%;
+}
+
+.skill-card {
+  width: 50%;
+}
+
+.project-card {
+  width: 200px;
+  height: 500px;
+  border: solid 2px black;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}

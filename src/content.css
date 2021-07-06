@@ -3,9 +3,12 @@
   height: 50vh;
 }
 
+/* Skill-bars: */
+
 .skillbar-container {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .skill-bars {
