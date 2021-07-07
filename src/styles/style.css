@@ -4,7 +4,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: white;
 }
 
@@ -17,7 +17,7 @@ section {
 
 footer {
   background-color: #1c1d25;
-  height: 50vh;
+  /* height: 50vh; */
   color: white;
   text-align: center;
   padding: 80px;
@@ -31,9 +31,9 @@ nav {
 ul {
   display: flex;
   list-style-type: none;
-  width: 35rem;
+  width: 500px;
   justify-content: space-around;
-  font-size: 2rem;
+  font-size: 30px;
 }
 
 li {
@@ -41,22 +41,22 @@ li {
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: 90px;
   margin: 0;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 50px;
 }
 
-h3 {
-  font-size: 2.5rem;
-}
+/* h3 {
+  font-size: 30px;
+} */
 
 p {
   margin: 0;
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .subtext {
@@ -72,20 +72,20 @@ p {
 }
 
 .intro-text {
-  margin-left: 5rem;
-  margin-bottom: 12.5rem;
+  margin-left: 80px;
+  margin-bottom: 200px;
 }
 
 .button {
-  width: 12rem;
-  height: 3rem;
+  width: 200px;
+  height: 55px;
   background-color: coral;
-  border-radius: 1.5rem;
+  border-radius: 30px;
   text-align: center;
-  font-size: 2rem;
-  font-weight: normal;
-  padding-top: 0.5rem;
-  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
 }
 
 .button:hover {
@@ -98,41 +98,41 @@ p {
 }
 
 .socials {
-  padding-bottom: 12.5rem;
+  padding-bottom: 200px;
 }
 
 .socialicons {
-  margin: 2rem;
+  margin: 20px;
 }
 
 .logo {
-  height: 5rem;
-  margin: 2rem;
+  height: 80px;
+  margin: 30px;
 }
 
 .subsection {
   display: flex;
   justify-content: space-around;
-  padding: 5rem;
+  padding: 80px;
 }
 
 .subsection-alternative {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 5rem;
+  padding: 80px;
 }
 
 .profilepic {
-  width: 12rem;
-  border-radius: 10rem;
-  padding-top: 7rem;
+  width: 200px;
+  border-radius: 100px;
+  padding-top: 100px;
 }
 
-/* .profilepic-container {
+.profilepic-container {
   display: flex;
   align-items: center;
-} */
+}
 
 .project-card {
   width: 300px;
@@ -178,7 +178,7 @@ a {
   display: none;
 }
 
-.hamburger.focus {
+.hamburger:focus {
   outline: 0;
 }
 
@@ -211,5 +211,25 @@ a {
 
   .logo {
     display: none;
+  }
+}
+
+.profile-card {
+  width: 500px;
+  height: 500px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
