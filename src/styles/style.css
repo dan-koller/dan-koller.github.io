@@ -49,10 +49,6 @@ h2 {
   font-size: 50px;
 }
 
-/* h3 {
-  font-size: 30px;
-} */
-
 p {
   margin: 0;
   font-size: 30px;
@@ -202,7 +198,6 @@ a {
   ul {
     display: none;
     margin: 0px;
-    background-color: #292b37;
   }
 
   ul.show {

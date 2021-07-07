@@ -6,6 +6,11 @@
 
 .info-list {
   display: block;
+  margin: 0 20px 20px 0;
+}
+
+strong {
+  font-size: 25px;
 }
 
 .profile-card .info-list li span {
@@ -115,8 +120,28 @@
   width: 50%;
 }
 
-.progress.sql span {
-  width: 60%;
+.progress.web span {
+  width: 70%;
+}
+
+.progress.java span::after {
+  content: '85%';
+}
+
+.progress.spring span::after {
+  content: '55%';
+}
+
+.progress.js span::after {
+  content: '75%';
+}
+
+.progress.node span::after {
+  content: '50%';
+}
+
+.progress.web span::after {
+  content: '70%';
 }
 
 .bar .progress span::before {
@@ -152,24 +177,4 @@
   100% {
     opacity: 1;
   }
-}
-
-.progress.java span::after {
-  content: '85%';
-}
-
-.progress.spring span::after {
-  content: '55%';
-}
-
-.progress.js span::after {
-  content: '75%';
-}
-
-.progress.node span::after {
-  content: '50%';
-}
-
-.progress.sql span::after {
-  content: '60%';
 }
