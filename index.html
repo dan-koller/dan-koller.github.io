@@ -23,16 +23,16 @@
           alt="Dan Koller's logo"
         />
         <ul>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="intro-area">
         <div class="intro-text">
           <h1>Dan Koller</h1>
           <p>Developer | Backend | Frontend</p>
-          <div class="button">About me</div>
+          <div class="button"><a href="#about-me">Learn more</a></div>
         </div>
         <div class="socials">
           <div>
@@ -86,7 +86,7 @@
         </div>
       </div>
     </section>
-    <section class="subsection">
+    <section class="subsection" id="about-me">
       <div class="information">
         <h2>About me</h2>
         <p>
@@ -167,16 +167,108 @@
         </div>
       </div>
     </section>
-    <section class="subsection-alternative">
+    <section class="subsection-alternative" id="projects">
       <h2>Projects</h2>
       <div class="project-container">
-        <div class="project-card"></div>
-        <div class="project-card"></div>
-        <div class="project-card"></div>
-        <div class="project-card"></div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/learn.jpeg"
+            alt="Learning Java"
+          />
+          <h3>Learning Java</h3>
+          <p class="subtext">
+            I like Java as an all purpose language because of the "Write once,
+            run anywhere" paradigm. It is easy to understand but hard to master
+            (as most things in life). But I like learning new things and
+            advancing skills.
+          </p>
+          <br />
+          <p class="subtext">
+            <a
+              class="project-link"
+              href="https://github.com/dan-koller/Java-Tutorial"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/images/node.jpeg"
+            alt="Backend frameworks"
+          />
+          <h3>Spring Boot & Node</h3>
+          <p class="subtext">
+            I am very interested in backend (web) development and decided to
+            learn Spring Boot as a supplement to Java and NodeJS because I am
+            fascinated by what you can do with JavaScript in the backend.
+          </p>
+          <br />
+        </p>
+        <br />
+        <p class="subtext">
+          <a
+            class="project-link"
+            href="https://github.com/dan-koller/"
+            >View here</a
+          >
+        </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/images/lock.jpeg"
+            alt="Web passwordgenerator"
+          />
+          <h3>Passwordgenerator</h3>
+          <p class="subtext">
+            Creating secure passwords can be difficult. Complex requirements for
+            passwords on registration for services can slow down the process of
+            signing up and user may use more unsecure passwords. So I created a
+            generator which can be easily integrated in existing websites.
+          </p>
+          <br />
+        </p>
+        <br />
+        <p class="subtext">
+          <a
+            class="project-link"
+            href="https://github.com/dan-koller/JS-Web-Passwordgenerator"
+            >View here</a
+          >
+        </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/src/images/recorder.png"
+            alt="Electron screen recorder"
+          />
+          <h3>Screen recorder</h3>
+          <p class="subtext">
+            I took the inspiration from Jeff Delaney @ fireship.io. I created my
+            own version due to the incompatibility with newer versions of
+            Electron (and of course I wanted to learn more about JS and
+            cross-platform frameworks).
+          </p>
+          <br />
+        </p>
+        <br />
+        <p class="subtext">
+          <a
+            class="project-link"
+            href="https://github.com/dan-koller/Electron-ScreenRecorder"
+            >View here</a
+          >
+        </p>
+        </div>
       </div>
     </section>
-    <footer></footer>
+    <footer id="contact">
+      <h2>Contact</h2>
+      <p>email@mymail.com</p>
+    </footer>
 
     <script src="/src/app.js"></script>
   </body>
