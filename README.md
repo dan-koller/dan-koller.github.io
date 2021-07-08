@@ -1,3 +1,3 @@
-# dankoller112.github.io
+# dan-koller.github.io
 
-This site is currently under construction. Content will follow soon!
+Welcome to my personal portfolio. It is built with HTML, CSS and JS :)
