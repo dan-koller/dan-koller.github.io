@@ -89,7 +89,7 @@ p {
 }
 
 .button:active {
-  background-color: white;
+  background-color: grey;
   color: coral;
 }
 
