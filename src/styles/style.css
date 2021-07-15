@@ -54,6 +54,8 @@ p {
   font-weight: 300;
 }
 
+/* Intro section */
+
 .subtext {
   font-size: 15px;
   font-weight: 300;
@@ -111,6 +113,8 @@ p {
   padding: 80px;
 }
 
+/* About me section */
+
 .subsection-alternative {
   display: flex;
   flex-direction: column;
@@ -134,6 +138,8 @@ p {
   display: flex;
   align-items: center;
 }
+
+/* Project section */
 
 .project-card {
   width: 300px;
@@ -175,6 +181,8 @@ a {
   color: white;
 }
 
+/* Hamburger menu for smaller screens */
+
 .hamburger {
   display: none;
 }
@@ -213,6 +221,10 @@ a {
     display: none;
   }
 }
+
+/* Profile section
+More specific css in content.css
+*/
 
 .profile-card {
   width: 500px;
