@@ -7,6 +7,7 @@
 .info-list {
   display: block;
   margin: 0 20px 20px 0;
+  padding: 0 0 0 25px;
 }
 
 strong {
@@ -17,7 +18,7 @@ strong {
   display: block;
   font-family: 'Space Grotesk', sans-serif;
   color: #888888;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1;
 }
 

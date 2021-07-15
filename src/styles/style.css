@@ -4,7 +4,6 @@ body {
 }
 
 section {
-  /* height: 100vh; */
   background-color: white;
 }
 
@@ -221,6 +220,10 @@ a {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 10px;
+}
+
+.profile-card h3 {
+  margin: 25px;
 }
 
 .profile-container {
