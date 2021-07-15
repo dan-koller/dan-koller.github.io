@@ -4,7 +4,6 @@ body {
 }
 
 section {
-  /* height: 100vh; */
   background-color: white;
 }
 
@@ -54,6 +53,8 @@ p {
   font-size: 30px;
   font-weight: 300;
 }
+
+/* Intro section */
 
 .subtext {
   font-size: 15px;
@@ -112,6 +113,8 @@ p {
   padding: 80px;
 }
 
+/* About me section */
+
 .subsection-alternative {
   display: flex;
   flex-direction: column;
@@ -135,6 +138,8 @@ p {
   display: flex;
   align-items: center;
 }
+
+/* Project section */
 
 .project-card {
   width: 300px;
@@ -176,6 +181,8 @@ a {
   color: white;
 }
 
+/* Hamburger menu for smaller screens */
+
 .hamburger {
   display: none;
 }
@@ -215,12 +222,20 @@ a {
   }
 }
 
+/* Profile section
+More specific css in content.css
+*/
+
 .profile-card {
   width: 500px;
   height: 400px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 10px;
+}
+
+.profile-card h3 {
+  margin: 25px;
 }
 
 .profile-container {
