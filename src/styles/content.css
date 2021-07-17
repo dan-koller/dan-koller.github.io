@@ -110,19 +110,19 @@ strong {
 }
 
 .progress.spring span {
-  width: 55%;
-}
-
-.progress.js span {
   width: 75%;
 }
 
+.progress.js span {
+  width: 70%;
+}
+
 .progress.node span {
-  width: 50%;
+  width: 55%;
 }
 
 .progress.web span {
-  width: 70%;
+  width: 60%;
 }
 
 .progress.java span::after {
@@ -130,19 +130,19 @@ strong {
 }
 
 .progress.spring span::after {
-  content: '55%';
-}
-
-.progress.js span::after {
   content: '75%';
 }
 
+.progress.js span::after {
+  content: '70%';
+}
+
 .progress.node span::after {
-  content: '50%';
+  content: '55%';
 }
 
 .progress.web span::after {
-  content: '70%';
+  content: '60%';
 }
 
 .bar .progress span::before {
