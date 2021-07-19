@@ -129,6 +129,10 @@ p {
   padding: 80px;
 }
 
+.subsection-profile h2 {
+  text-align: center;
+}
+
 .profilepic {
   width: 200px;
   border-radius: 100px;
