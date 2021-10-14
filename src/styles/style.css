@@ -153,6 +153,12 @@ a:hover {
   padding: 30px;
 }
 
+.project-details img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 750px) {
   .project-details {
     width: 80%;
