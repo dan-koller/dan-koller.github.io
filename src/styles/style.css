@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 html {
   scroll-behavior: smooth;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
   background-color: rgb(20, 20, 20);
   color: white;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 300;
 }
 
@@ -203,7 +203,7 @@ strong {
 
 .tech-card .info-list li span {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: #888888;
   font-size: 24px;
   line-height: 1;
@@ -319,28 +319,28 @@ strong {
 }
 
 .progress.java span::after {
-  content: '90%';
+  content: "90%";
 }
 
 .progress.py span::after {
-  content: '80%';
+  content: "80%";
 }
 
 .progress.js span::after {
-  content: '75%';
+  content: "75%";
 }
 
 .progress.web span::after {
-  content: '70%';
+  content: "70%";
 }
 
 .progress.sql span::after {
-  content: '60%';
+  content: "60%";
 }
 
 .bar .progress span::before {
   position: absolute;
-  content: '';
+  content: "";
   right: 0;
   top: -10px;
   height: 0;
@@ -394,11 +394,11 @@ strong {
   font-size: 25px;
   padding: 10px;
   padding: 20px 0px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .form-submit textarea {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 25px;
   resize: none;
   width: 100%;
@@ -418,7 +418,7 @@ form button {
   width: 100%;
   background-color: aqua;
   color: black;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 25px;
   padding: 20px;
   border: none;
