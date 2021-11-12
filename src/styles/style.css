@@ -58,6 +58,14 @@ section {
     text-align: center;
 }
 
+/* Make font of the intro text smaller to fit mobile devices */
+@media only screen and (max-height: 820px) {
+    .intro {
+        font-size: 120px;
+    }
+}
+
+/* Blinking cursor animation */
 .blinking {
     width: 50px;
     height: 100px;
