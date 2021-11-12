@@ -88,9 +88,12 @@ footer {
     align-items: center;
 }
 
-/* .footer-main {
-  background-color: black;
-} */
+/* Make footer black on higher resolution devices for a cleaner look */
+@media only screen and (min-height: 1080px) {
+    .footer-main {
+        background-color: black;
+    }
+}
 
 footer ul {
     display: flex;
