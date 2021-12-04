@@ -207,6 +207,41 @@ a:hover {
     width: 180px;
 }
 
+.interests {
+    width: 50%;
+    text-align: center;
+}
+
+.interests h2 {
+    font-size: xx-large;
+}
+
+.interests ul {
+    padding: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+@media only screen and (max-width: 750px) {
+    .about-me {
+        width: 80%;
+    }
+
+    .interests {
+        width: 50%;
+        text-align: center;
+    }
+
+    /* Reduce size to single column on smaller devices to fit content */
+    .interests ul {
+        padding: 0;
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}
+
 /* Stack page */
 
 .info-list {
