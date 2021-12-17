@@ -223,6 +223,11 @@ a:hover {
     -moz-columns: 2;
 }
 
+.interests li {
+    list-style: none;
+    margin: auto;
+}
+
 @media only screen and (max-width: 750px) {
     .about-me {
         width: 80%;
