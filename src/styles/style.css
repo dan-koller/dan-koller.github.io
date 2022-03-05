@@ -121,6 +121,10 @@ a {
     margin: 40px 10px;
 }
 
+.copyright-footer {
+    margin-bottom: 10px;
+}
+
 .socials {
     width: 100px;
     height: 320px;
