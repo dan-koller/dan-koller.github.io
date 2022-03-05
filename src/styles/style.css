@@ -486,6 +486,11 @@ form button {
     border: none;
 }
 
+/* Make submit button hover text black for better visibility */
+form a:hover {
+    color: black;
+}
+
 @media only screen and (max-width: 750px) {
     .form-submit {
         width: 80%;
