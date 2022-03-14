@@ -12,6 +12,8 @@ body {
     font-weight: 300;
 }
 
+/* Front (index) page */
+
 header {
     display: flex;
     justify-content: center;
@@ -58,7 +60,7 @@ section {
     text-align: center;
 }
 
-/* Make font of the intro text smaller to fit mobile devices */
+/* Makes font of the intro text smaller to fit mobile devices */
 @media only screen and (max-height: 820px) {
     .intro {
         font-size: 120px;
@@ -96,7 +98,7 @@ footer {
     align-items: center;
 }
 
-/* Make footer black on higher resolution devices for a cleaner look */
+/* Black footer on higher resolution devices for a cleaner look */
 @media only screen and (min-height: 1080px) {
     .footer-main {
         background-color: black;
@@ -155,7 +157,7 @@ a {
     left: 0;
 }
 
-/* Reduce wave height on mobile devices */
+/* Reduces wave height on mobile devices */
 @media only screen and (max-width: 750px) {
     .wave {
         height: 35vh;
@@ -186,13 +188,23 @@ a:hover {
     object-fit: cover;
 }
 
-@media only screen and (max-width: 750px) {
+.view-project {
+    padding: 3px;
+    border: solid 1px white;
+}
+
+@media only screen and (max-width: 950px) {
     .project-details {
         width: 80%;
     }
 
     .project-details td {
         padding: 5px;
+    }
+
+    .view-project {
+        padding: 0px;
+        border: none;
     }
 }
 
@@ -242,7 +254,7 @@ a:hover {
         text-align: center;
     }
 
-    /* Reduce size to single column on smaller devices to fit content */
+    /* Reduces size to single column on smaller devices to fit content */
     .interests ul {
         padding: 0;
         columns: 1;
@@ -486,7 +498,7 @@ form button {
     border: none;
 }
 
-/* Make submit button hover text black for better visibility */
+/* Black submit button hover text for better visibility */
 form a:hover {
     color: black;
 }
