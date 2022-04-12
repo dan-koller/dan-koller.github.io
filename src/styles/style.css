@@ -202,6 +202,12 @@ a:hover {
         padding: 5px;
     }
 
+    .project-details img {
+        width: 100px;
+        height: 50px;
+        object-fit: cover;
+    }
+
     .view-project {
         padding: 0px;
         border: none;
