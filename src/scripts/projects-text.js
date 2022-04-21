@@ -14,7 +14,7 @@ if (windowWidth < 950) {
 
     // Project 3: JSON database
     document.getElementById("project-description3").innerHTML =
-        "Client-server multithreaded database.";
+        "Multithreaded client-server database.";
 
     // Project 4: Mockup banking system
     document.getElementById("project-description4").innerHTML =
