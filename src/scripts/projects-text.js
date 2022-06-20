@@ -12,15 +12,23 @@ if (windowWidth < 950) {
     document.getElementById("project-description2").innerHTML =
         "Secure accounting service with role system.";
 
-    // Project 3: JSON database
+    // Project 3: SQLite viewer
     document.getElementById("project-description3").innerHTML =
+        "Standalone SQLite viewer for multiple platforms.";
+
+    // Project 4: JSON database
+    document.getElementById("project-description4").innerHTML =
         "Multithreaded client-server database.";
 
-    // Project 4: Mockup banking system
-    document.getElementById("project-description4").innerHTML =
+    // Project 5: Mockup banking system
+    document.getElementById("project-description5").innerHTML =
         "A basic and secure banking system.";
 
-    // Project 5: Electron screen recorder
-    document.getElementById("project-description5").innerHTML =
-        "Platform independent screen recorder.";
+    // Project 5: Weather web app
+    document.getElementById("project-description6").innerHTML =
+        "Weather app for selected locations.";
+
+    // Project 5: Minesweeper
+    document.getElementById("project-description7").innerHTML =
+        "Minesweeper made modern with React.";
 }
